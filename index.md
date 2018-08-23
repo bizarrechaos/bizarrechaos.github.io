@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<p>ls -lt <a class="string" href="{{ site.url }}/posts/">posts</a><br />total {{ site.posts | size }}</p>
+<p>$ pinky -l <span class="string">{{ site.nick  }}</span></p>
 <p>
-    {% for post in site.categories.posts %}
-        -rw-r--r-- 1 {{ site.nick }} admin {{ post.content | size }} {{ post.date | date: "%b %d %Y %H:%M" }} <a class="string" href="{{ post.url }}">{{ post.title }}</a><br />
-    {% endfor %}
+Login name: {{ site.nick }}          In real life: Brandon Carter<br />
+Directory: /home/{{ site.nick }}          Shell: /usr/local/bin/fish<br />
+Plan:<br />
+I am a GCIA certified Security Analyst.<br />
+I am interested in security, linux, python and other tech things.<br />
+This is a place for me to share and store stuff.<br />
 </p>
