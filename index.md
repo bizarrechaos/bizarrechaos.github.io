@@ -1,7 +1,5 @@
 ---
-layout: page
-title: "Posts"
-permalink: /posts/
+layout: content
 ---
 
 <ul class="posts">
