@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 title: "Category List"
 permalink: /category/
 ---
