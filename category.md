@@ -6,25 +6,21 @@ permalink: /category/
 <p>$ ls -l <span class="string">categories</span> | grep -e total -e '^d' | awk {'print $9, $5'}<br />total {{ site.tags | size }}</p>
 <p>
     {% assign list = site.tags | sort %}
-        {% for category in list %}
-            <a class="string" href="#{{ category[0] }}">{{ category[0] }}</a> {{ category[1].size }}<br />
-        {% endfor %}
+    {% for category in list %}
+        <a class="string" href="#{{ category[0] }}">{{ category[0] }}</a> {{ category[1].size }}<br />
+    {% endfor %}
     {% assign list = nil %}
 </p>
 <p>
     {% assign taglist = site.tags | sort %}
-        {% for category in taglist %}
-            $ cat <span id="{{ category[0] }}" class="string">{{ category[0] }}</span><br />
-        <!--<ul class="post-list">
+    {% for category in taglist %}
+        $ cat <span id="{{ category[0] }}" class="string">{{ category[0] }}</span><br />
         {% assign list = category[1] %}
         {% for post in list %}
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
+            <a class="string" href="{{ post.url }}">{{ post.title }}</a><br />
         {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-        </ul>-->
-        {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+    {% endfor %}
     {% assign taglist = nil %}
 </p>
