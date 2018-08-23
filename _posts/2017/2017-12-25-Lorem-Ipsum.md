@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	"Lorem Ipsum"
+title:	"Lorem Ipsum - 2017"
 date:	2017-12-25 23:39:00
 categories:
     - posts
