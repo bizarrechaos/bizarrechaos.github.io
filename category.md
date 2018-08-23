@@ -20,8 +20,8 @@ permalink: /category/
             <a class="string" href="{{ post.url }}">{{ post.title }}</a><br />
         {% endfor %}
         <br />
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
     {% endfor %}
     {% assign taglist = nil %}
 </p>
