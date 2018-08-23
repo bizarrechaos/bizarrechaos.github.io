@@ -11,10 +11,10 @@ permalink: /category/
         {% endfor %}
     {% assign list = nil %}
 </p>
-
-{% assign taglist = site.tags | sort %}
-    {% for category in taglist %}
-        <p>$ cat <span id="{{ category[0] }}" class="string">category[0]</span></p>
+<p>
+    {% assign taglist = site.tags | sort %}
+        {% for category in taglist %}
+            $ cat <span id="{{ category[0] }}" class="string">category[0]</span>
         <!--<ul class="post-list">
         {% assign list = category[1] %}
         {% for post in list %}
@@ -25,5 +25,6 @@ permalink: /category/
         {% assign pages_list = nil %}
         {% assign group = nil %}
         </ul>-->
-    {% endfor %}
-{% assign taglist = nil %}
+        {% endfor %}
+    {% assign taglist = nil %}
+</p>
