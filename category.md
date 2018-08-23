@@ -13,17 +13,17 @@ permalink: /category/
 </p>
 
 {% assign taglist = site.tags | sort %}
-{% for category in taglist %}
- <h2 id="{{ category[0] }}">{{ category[0] }}</h2>
- <ul class="post-list">
-  {% assign list = category[1] %}
-  {% for post in list %}
-   <li>
-   <a href="{{ post.url }}">{{ post.title }}</a>
-   </li>
-  {% endfor %}
-  {% assign pages_list = nil %}
-  {% assign group = nil %}
- </ul>
-{% endfor %}
+    {% for category in taglist %}
+        <p>$ cat <span id="{{ category[0] }}" class="string">category[0]</span></p>
+        <ul class="post-list">
+        {% assign list = category[1] %}
+        {% for post in list %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+        </ul>
+    {% endfor %}
 {% assign taglist = nil %}
