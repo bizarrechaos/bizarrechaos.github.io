@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	"Lorem Ipsum"
+title:	"Lorem Ipsum Lorem Lorem Ipsum - Ipsum"
 date:	2018-03-05 22:24:00
 categories:
     - posts
