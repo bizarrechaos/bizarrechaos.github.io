@@ -1,21 +1,16 @@
 ---
-layout: page
-title: "Category List"
+layout: default
 permalink: /category/
 ---
 
-<ul class="tag-box inline">
-{% assign list = site.tags | sort %}
-    {% for category in list %}
-        <li>
-            <a href="#{{ category[0] }}">
-                {{ category[0] }}
-            </a>
-            <span>({{ category[1].size }})</span>
-        </li>
-    {% endfor %}
-{% assign list = nil %}
-</ul>
+<p>$ ls -l /categories/*/ | grep -e total -e '^d' | awk {'print $9, $5'}<br />total {{ site.tags | size }}</p>
+<p>
+    {% assign list = site.tags | sort %}
+        {% for category in list %}
+            <a href="#{{ category[0] }}">{{ category[0] }}</a>&nbsp;{{ category[1].size }}
+        {% endfor %}
+    {% assign list = nil %}
+</p>
 
 {% assign taglist = site.tags | sort %}
 {% for category in taglist %}
