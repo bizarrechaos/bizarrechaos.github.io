@@ -2,11 +2,6 @@
 layout: post
 title:	"Redimensionar partições LVM"
 date:	2017-04-11 03:00:00
-categories:
-    - posts
-tags:
-    - linux
-    - lvm
 ---
 
 Em um post passado, mostrando como fazer a [instalação do Arch Linux \[0\]][0], utilizei do LVM para gerenciar os discos. Lá falei um pouco mais da teoria por trás dele e tal. Aqui vou me ater mesmo a repassar o passo a passo utilizado para isso.
