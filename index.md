@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<p>$ pinky -l <span class="string">{{ site.nick  }}</span></p>
+<p>$ pinky <span class="reserved">-l</span> <span class="string">{{ site.nick  }}</span></p>
 <p>
 Login name: {{ site.nick }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In real life: Brandon Carter<br />
 Directory: /home/{{ site.nick }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell: /bin/bash<br />
