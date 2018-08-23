@@ -19,6 +19,7 @@ permalink: /category/
         {% for post in list %}
             <a class="string" href="{{ post.url }}">{{ post.title }}</a><br />
         {% endfor %}
+        <br />
     {% assign pages_list = nil %}
     {% assign group = nil %}
     {% endfor %}
