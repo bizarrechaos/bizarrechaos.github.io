@@ -7,7 +7,7 @@ permalink: /category/
 <p>
     {% assign list = site.tags | sort %}
         {% for category in list %}
-            <a href="#{{ category[0] }}">{{ category[0] }}</a>&nbsp;{{ category[1].size }}<br />
+            <a class="string" href="#{{ category[0] }}">{{ category[0] }}</a> {{ category[1].size }}<br />
         {% endfor %}
     {% assign list = nil %}
 </p>
