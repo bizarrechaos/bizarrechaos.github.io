@@ -4,10 +4,6 @@ title: "Category List"
 permalink: /category/
 ---
 
-<header>
-    <h1>Category List</h1>
-</header>
-
 <ul class="tag-box inline">
 {% assign list = site.tags | sort %}
     {% for category in list %}
