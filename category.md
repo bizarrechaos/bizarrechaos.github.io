@@ -3,7 +3,7 @@ layout: default
 permalink: /category/
 ---
 
-<p>$ ls -l /categories/*/ | grep -e total -e '^d' | awk {'print $9, $5'}<br />total {{ site.tags | size }}</p>
+<p>$ ls -l <span class="string">categories</span> | grep -e total -e '^d' | awk {'print $9, $5'}<br />total {{ site.tags | size }}</p>
 <p>
     {% assign list = site.tags | sort %}
         {% for category in list %}
