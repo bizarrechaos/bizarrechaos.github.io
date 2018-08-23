@@ -1,7 +1,7 @@
 # Site settings
 title: "bizarrechaos"
 bye_message: ""
-baseurl: "/"
+baseurl: "https://bizarrechaos.com/"
 url: "https://bizarrechaos.com"
 #disqus: bizarrechaos
 
