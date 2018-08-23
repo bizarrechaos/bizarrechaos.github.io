@@ -2,13 +2,6 @@
 layout: post
 title:	"Arch Linux + Tmux = CLI++"
 date:	2017-01-01 12:00:00
-categories:
-    - posts
-tags:
-    - archlinux
-    - linux
-    - screenshot
-    - tmux
 ---
 
 ![Screenshot]({{ site.baseurl }}images/posts/2017/01.png)
