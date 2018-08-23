@@ -60,11 +60,11 @@ a {
     display: inline;
     //margin-left: 5px;
 }
+/*
 .menu ul li a {
     text-decoration: none;
     color: rgba(220,220,0,0.8);
 }
-/*
 .menu ul li a:hover {
     padding: 2px;
     border-left: 1px dashed rgba(220,220,0,0.5);
