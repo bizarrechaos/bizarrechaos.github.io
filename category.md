@@ -14,7 +14,7 @@ permalink: /category/
 <p>
     {% assign taglist = site.tags | sort %}
         {% for category in taglist %}
-            $ cat <span id="{{ category[0] }}" class="string">category[0]</span>
+            $ cat <span id="{{ category[0] }}" class="string">{{ category[0] }}</span><br />
         <!--<ul class="post-list">
         {% assign list = category[1] %}
         {% for post in list %}
