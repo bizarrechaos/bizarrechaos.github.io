@@ -18,3 +18,13 @@ fingerprint_key: "894F E13F C25A 47FF 1AE4  F643 452A D28A A3D2 C6B6"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-analytics
+
+# Plugin settings
+jekyll_analytics:
+    GoogleAnalytics:
+        id: UA-56041840-2
+        anonymizeIp: false
