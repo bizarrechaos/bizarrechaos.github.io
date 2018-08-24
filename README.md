@@ -1,4 +1,4 @@
-# bizarrechaos.com
+# https://bizarrechaos.com
 
 Github Pages hosted Jekyll site for personal use
 
