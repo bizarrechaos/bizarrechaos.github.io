@@ -1,20 +1,21 @@
 <header class="row">
   <div class="col-lg-8 col-lg-offset-2">
     <a href="https://bizarrechaos.com"><h1 class="">/home/bizarrechaos</h1></a>
+    <p>$ cat <span class="string">info.py</span></p>
     <p>
-    >>> nick = <span class="string">'{{ site.nick }}'</span>
+    nick = <span class="string">'{{ site.nick }}'</span>
     </p>
     <p>
-    >>> <span class="reserved">print</span><span class="string">(f'<span class="reserved">{nick}</span>@<span class="reserved">{nick}</span>.{{ site.mail.ext }}')</span>
+    <span class="reserved">print</span><span class="string">(f'<span class="reserved">{nick}</span>@<span class="reserved">{nick}</span>.{{ site.mail.ext }}')</span>
     </p>
     <p>
-    >>> <span class="reserved">print</span><a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">(f'https://{{ site.source_code.server }}/<span class="reserved">{nick}</span>')</span></a>
+    <span class="reserved">print</span><a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">(f'https://{{ site.source_code.server }}/<span class="reserved">{nick}</span>')</span></a>
     </p>
     <p>
-    >>> <span class="reserved">print</span><a href="https://twitter.com/bizarrechaos" target="_blank"><span class="string">(f'https://twitter.com/<span class="reserved">{nick}</span>')</span></a>
+    <span class="reserved">print</span><a href="https://twitter.com/bizarrechaos" target="_blank"><span class="string">(f'https://twitter.com/<span class="reserved">{nick}</span>')</span></a>
     </p>
     <p>
-    >>> <span class="reserved">print<a href="{{ site.url }}/pubkey/"><span class="string">('{{ site.fingerprint_key }}')</span></a>
+    <span class="reserved">print<a href="{{ site.url }}/pubkey/"><span class="string">('{{ site.fingerprint_key }}')</span></a>
     </p>
   </div>
 </header>
