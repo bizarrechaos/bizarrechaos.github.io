@@ -26,10 +26,16 @@ I also came across a neat little go program that helps to emulate x86 or x64 sys
 It is kind of like an assembly language interpreter or cli.
 ['asm-cli'](https://github.com/cch123/asm-cli)
 
+Here is an example of it in action:
+
 <script id="asciicast-sIksRB2w7zWKa17ruIkqVjOyI" src="https://asciinema.org/a/sIksRB2w7zWKa17ruIkqVjOyI.js" async></script>
 
+Pretty useful if you want to determine the value a register has after a few instructions.
+
 So far everything I have disassembled has been pretty basic code.
+
 With the resources above, and through continued learning, I hope to be able to dive into more complex code.
 
 I will be blogging about some more challenges soon hopefully.
-I may make a post or two about xorpd's "xchg rax,rax" musings you cna find on his website.
+
+I may make a post or two about xorpd's "xchg rax,rax" musings you can find on his website.
