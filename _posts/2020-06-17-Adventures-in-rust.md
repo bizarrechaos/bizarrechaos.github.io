@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adventures in rust"
-date:	2020-17-17 19:54
+date:	2020-06-17 19:54
 categories:
     - posts
 tags:
