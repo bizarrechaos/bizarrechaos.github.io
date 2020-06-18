@@ -30,7 +30,7 @@ So doing some research I looked into rust and discovered I could do what I wante
 
 Introducing [hashy](https://github.com/bizarrechaos/hashy)
 
-<script id="asciicast-Ov8vSYAtuvBdJGvmE1lnmBMWd" src="https://asciinema.org/a/Ov8vSYAtuvBdJGvmE1lnmBMWd" async></script>
+<script id="asciicast-Ov8vSYAtuvBdJGvmE1lnmBMWd" src="https://asciinema.org/a/Ov8vSYAtuvBdJGvmE1lnmBMWd.js" async></script>
 
 Feel free to check it out and contribute if you feel inclined.
 I have absolutely no idea what I am doing in rust so I expect this can be made exceptionally better.
